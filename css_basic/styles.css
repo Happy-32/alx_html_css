@@ -1,0 +1,98 @@
+body, main {
+display: flex;
+}
+
+body{
+    flex-direction: column;
+}
+
+main{
+    flex-direction: row;
+    flex: auto;
+}
+
+article{
+    flex: 2;
+    margin-top:10px;
+}
+
+aside{
+    flex: 1;
+}
+
+aside, article{
+    overflow-y: auto;
+}
+
+
+.navbar{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* flex-direction: 2; */
+    align-items: center;
+}
+
+.nav{
+    float: right;
+}
+
+
+
+.logo{
+    height: 60px;
+    width: 60px;
+}
+
+.main{
+    border-radius: 4%;
+    border: 1px solid grey;
+}
+
+aside{
+    height: auto;
+}
+
+article{
+    border-radius: 2%;
+    border: 1px solid grey;
+}
+
+.main, .table{
+    cursor: auto;
+}
+
+.main:hover, .table:hover{
+    background-color: lightblue;
+  cursor: pointer;
+}
+
+.table{
+    text-align: left;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+ #tweets{
+    border-radius: 4px;
+    border: 1px solid grey;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+footer{
+    height: auto;
+    align-items: center;
+    color: white;
+    text-align: center;
+    margin-top:10px;
+    border-radius:1%;
+    border: 1px solid grey;
+}
+
+footer p{
+    font-size: 15px;
+}
+
+footer a{
+    text-decoration: none;
+}
