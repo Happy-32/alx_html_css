@@ -1,0 +1,152 @@
+
+main{
+    background-image: url(./images/Object.png);
+    height: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    /* align-items: center; */
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.navbar a{
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.big-banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.big-banner h1{
+    font-size: 100px;
+    margin-bottom: 0px;
+    font-weight: 70px;
+}
+
+.minor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.minor h5{
+    margin-top: 0px;
+    margin-right: 30px;
+}
+
+button{
+    height: 40px;
+    border-radius: 5%;
+    box-shadow: 0px 2px 20px 0px #00000080;
+    background-color: #c271ff;
+    /* justify-content: center; */
+}
+
+.tutor{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.person {
+    margin-right: 100px;
+}
+
+.person img{
+    border-radius: 50%;
+}
+
+.tutors h2{
+    /* margin-right: 500px; */
+    font-size: 30px;
+    margin-bottom: 90px;
+}
+.tutors h2 span{
+    color: #c271ff;
+}
+
+.video h2 span{
+    color: #c271ff;
+}
+
+.tutors{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.quote{
+    background-color: #c271ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+
+.quote span{
+    font-weight: 100px;
+}
+
+.blocks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.like-section{
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.rating{
+    margin-right: 20px;
+}
+.stars{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.author img{
+    margin-right: 5px;
+    height: 30px;
+}
+
+.video{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+}
