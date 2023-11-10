@@ -63,6 +63,7 @@ button{
     border-radius: 5%;
     box-shadow: 0px 2px 20px 0px #00000080;
     background-color: #c271ff;
+    border-radius: 10px;
     /* justify-content: center; */
 }
 
@@ -87,12 +88,18 @@ button{
     font-size: 30px;
     margin-bottom: 90px;
 }
-.tutors h2 span{
+.tutors span {
     color: #c271ff;
 }
 
-.video h2 span{
+.video span{
     color: #c271ff;
+    
+}
+
+.membership span{
+    color: #c271ff;
+
 }
 
 .tutors{
@@ -124,17 +131,20 @@ button{
 .like-section{
     margin-left: 0px;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     text-align: center;
 }
 
-.rating{
-    margin-right: 20px;
+
+.timer{
+    float: right;
 }
+
 .stars{
     display: flex;
     align-items: center;
+    justify-content: space-between;
     text-align: center;
 }
 
@@ -144,9 +154,116 @@ button{
 }
 
 .video{
+    height: 450px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* text-align: center; */
+}
+
+
+
+.video-block{
+    /* border: 1px solid blue; */
+    margin-right: 40px;
+}
+
+.checked{
+    color: #C271FF;
+}
+
+.membership{
+    background-color: #071629;
+    width: 100%;
+    height: 502px;
+    /* border: 1px solid green; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* text-align: center; */
 }
+
+.membership button{
+    margin-top: 30px;
+}
+
+
+
+.members{
+    width: 100%;
+    display: flex;
+    margin-left: 30px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    /* border: 1px solid red; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.faq-main{
+    height: 707px;
+    /* border: 1px solid red; */
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.item-block h3{
+    font-weight: bolder;
+    
+}
+
+.faqs h1{
+    text-align: center;
+    align-content: center;
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+
+
+.big-faq{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    /* flex-wrap: wrap; */
+}
+
+.row-block{
+    width: 40%;
+    height: 300px;
+    /* border: 1px solid blue; */
+}
+
+
+footer{
+    /* width: 100%; */
+    height: 249px;
+    background-color: #071629;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.topside{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.bottom{
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 80px;
+}
+
